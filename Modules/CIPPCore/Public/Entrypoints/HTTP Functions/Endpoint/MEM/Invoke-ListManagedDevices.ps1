@@ -1,4 +1,4 @@
-function Invoke-ListAssignmentFilters {
+function Invoke-ListManagedDevices {
     <#
     .FUNCTIONALITY
         Entrypoint
@@ -11,16 +11,14 @@ function Invoke-ListAssignmentFilters {
     $APIName = $Request.Params.CIPPEndpoint
     $Headers = $Request.Headers
 
-    # Get the tenant filter
     $TenantFilter = $Request.Query.tenantFilter
-    $FilterId = $Request.Query.filterId
     $UseReportDB = $Request.Query.UseReportDB
 
     try {
         # Cache/AllTenants short-circuit
         if ($TenantFilter -eq 'AllTenants' -or $UseReportDB -eq 'true') {
             try {
-                $GraphRequest = Get-CIPPAssignmentFiltersReport -TenantFilter $TenantFilter -ErrorAction Stop
+                $GraphRequest = Get-CIPPManagedDevicesReport -TenantFilter $TenantFilter -ErrorAction Stop
                 $StatusCode = [HttpStatusCode]::OK
             } catch {
                 $StatusCode = [HttpStatusCode]::InternalServerError
@@ -32,24 +30,18 @@ function Invoke-ListAssignmentFilters {
             })
         }
 
-        if ($FilterId) {
-            # Get specific filter
-            $AssignmentFilters = New-GraphGetRequest -uri "https://graph.microsoft.com/beta/deviceManagement/assignmentFilters/$($FilterId)" -tenantid $TenantFilter
-        } else {
-            # Get all filters
-            $AssignmentFilters = New-GraphGetRequest -uri 'https://graph.microsoft.com/beta/deviceManagement/assignmentFilters' -tenantid $TenantFilter
-        }
-
+        # Live path — direct Graph call
+        $GraphRequest = New-GraphGetRequest -uri 'https://graph.microsoft.com/beta/deviceManagement/managedDevices?$top=999' -tenantid $TenantFilter
         $StatusCode = [HttpStatusCode]::OK
     } catch {
         $ErrorMessage = Get-CippException -Exception $_
-        Write-LogMessage -headers $Headers -API $APIName -message "Failed to retrieve assignment filters: $($ErrorMessage.NormalizedError)" -Sev Error -LogData $ErrorMessage
-        $AssignmentFilters = @()
+        Write-LogMessage -headers $Headers -API $APIName -message "Failed to retrieve managed devices: $($ErrorMessage.NormalizedError)" -Sev Error -LogData $ErrorMessage
+        $GraphRequest = @()
         $StatusCode = [HttpStatusCode]::InternalServerError
     }
 
     return ([HttpResponseContext]@{
-            StatusCode = $StatusCode
-            Body       = @($AssignmentFilters)
-        })
+        StatusCode = $StatusCode
+        Body       = @($GraphRequest)
+    })
 }

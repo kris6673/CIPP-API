@@ -13,8 +13,24 @@
     Write-LogMessage -headers $Headers -API $APIName -message 'Accessed this API' -Sev 'Debug'
 
     $TenantFilter = $Request.Query.tenantFilter
+    $UseReportDB = $Request.Query.UseReportDB
 
     try {
+        # Cache/AllTenants short-circuit
+        if ($TenantFilter -eq 'AllTenants' -or $UseReportDB -eq 'true') {
+            try {
+                $GraphRequest = Get-CIPPCompliancePoliciesReport -TenantFilter $TenantFilter -ErrorAction Stop
+                $StatusCode = [HttpStatusCode]::OK
+            } catch {
+                $StatusCode = [HttpStatusCode]::InternalServerError
+                $GraphRequest = $_.Exception.Message
+            }
+            return ([HttpResponseContext]@{
+                StatusCode = $StatusCode
+                Body       = @($GraphRequest)
+            })
+        }
+
         # Use bulk requests to get groups and compliance policies
         $BulkRequests = @(
             @{

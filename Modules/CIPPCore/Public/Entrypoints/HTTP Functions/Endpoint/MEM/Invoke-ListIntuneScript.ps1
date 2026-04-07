@@ -13,6 +13,23 @@ function Invoke-ListIntuneScript {
     Write-LogMessage -Headers $Headers -API $APIName -message 'Accessed this API' -Sev Debug
 
     $TenantFilter = $Request.Query.tenantFilter
+    $UseReportDB = $Request.Query.UseReportDB
+
+    # Cache/AllTenants short-circuit
+    if ($TenantFilter -eq 'AllTenants' -or $UseReportDB -eq 'true') {
+        try {
+            $GraphRequest = Get-CIPPIntuneScriptReport -TenantFilter $TenantFilter -ErrorAction Stop
+            $StatusCode = [HttpStatusCode]::OK
+        } catch {
+            $StatusCode = [HttpStatusCode]::InternalServerError
+            $GraphRequest = $_.Exception.Message
+        }
+        return ([HttpResponseContext]@{
+            StatusCode = $StatusCode
+            Body       = @($GraphRequest)
+        })
+    }
+
     $Results = [System.Collections.Generic.List[System.Object]]::new()
 
     $BulkRequests = @(

@@ -119,6 +119,9 @@ function Invoke-CIPPDBCacheCollection {
             'IntuneAppProtectionPolicies'
             'DetectedApps'
             'MDEOnboarding'
+            'AssignmentFilters'
+            'IntuneScripts'
+            'IntuneReusableSettings'
         )
         Compliance         = @(
             'SensitivityLabels'

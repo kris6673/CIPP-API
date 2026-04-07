@@ -13,11 +13,27 @@ function Invoke-ListIntuneReusableSettings {
 
     $TenantFilter = $Request.Query.tenantFilter
     $SettingId = $Request.Query.ID
+    $UseReportDB = $Request.Query.UseReportDB
 
     if (-not $TenantFilter) {
         return ([HttpResponseContext]@{
             StatusCode = [System.Net.HttpStatusCode]::BadRequest
             Body = @{ Results = 'tenantFilter is required' }
+        })
+    }
+
+    # Cache/AllTenants short-circuit
+    if ($TenantFilter -eq 'AllTenants' -or $UseReportDB -eq 'true') {
+        try {
+            $GraphRequest = Get-CIPPIntuneReusableSettingsReport -TenantFilter $TenantFilter -ErrorAction Stop
+            $StatusCode = [System.Net.HttpStatusCode]::OK
+        } catch {
+            $StatusCode = [System.Net.HttpStatusCode]::InternalServerError
+            $GraphRequest = $_.Exception.Message
+        }
+        return ([HttpResponseContext]@{
+            StatusCode = $StatusCode
+            Body       = @($GraphRequest)
         })
     }
 
