@@ -102,7 +102,6 @@ Aground
 Ahead
 Ahoy
 Aide
-Aids
 Aim
 Ajar
 Alabaster
@@ -308,7 +307,6 @@ Army
 Aroma
 Arose
 Around
-Arousal
 Arrange
 Array
 Arrest
@@ -316,7 +314,6 @@ Arrival
 Arrive
 Arrogance
 Arrogant
-Arson
 Art
 Ascend
 Ascension
@@ -375,8 +372,6 @@ Augmented
 August
 Authentic
 Author
-Autism
-Autistic
 Autograph
 Automaker
 Automated
@@ -446,7 +441,6 @@ Backyard
 Bacon
 Bacteria
 Bacterium
-Badass
 Badge
 Badland
 Badly
@@ -701,7 +695,6 @@ Brook
 Broom
 Brought
 Browbeat
-Brownnose
 Browse
 Browsing
 Bruising
@@ -814,7 +807,6 @@ Candy
 Cane
 Canine
 Canister
-Cannabis
 Canned
 Canning
 Cannon
@@ -861,7 +853,6 @@ Caring
 Carless
 Carload
 Carmaker
-Carnage
 Carnation
 Carnival
 Carnivore
@@ -909,7 +900,6 @@ Catering
 Catfight
 Catfish
 Cathedral
-Cathouse
 Catlike
 Catnap
 Catnip
@@ -919,7 +909,6 @@ Cattishly
 Cattle
 Catty
 Catwalk
-Caucasian
 Caucus
 Causal
 Causation
@@ -996,7 +985,6 @@ Cheesy
 Chef
 Chemicals
 Chemist
-Chemo
 Cherisher
 Cherub
 Chess
@@ -1026,7 +1014,6 @@ Chive
 Chloride
 Chlorine
 Choice
-Chokehold
 Choking
 Chomp
 Chooser
@@ -1719,7 +1706,6 @@ Depth
 Deputize
 Deputy
 Derail
-Deranged
 Derby
 Derived
 Desecrate
@@ -1768,8 +1754,6 @@ Devouring
 Devoutly
 Dexterity
 Dexterous
-Diabetes
-Diabetic
 Diabolic
 Diagnoses
 Diagnosis
@@ -1950,7 +1934,6 @@ Dosage
 Dose
 Dotted
 Doubling
-Douche
 Dove
 Down
 Dowry
@@ -2063,8 +2046,6 @@ Dwindling
 Dynamic
 Dynamite
 Dynasty
-Dyslexia
-Dyslexic
 Each
 Eagle
 Earache
@@ -2253,7 +2234,6 @@ Enforcer
 Engaged
 Engaging
 Engine
-Engorge
 Engraved
 Engraver
 Engraving
@@ -2274,7 +2254,6 @@ Enquirer
 Enrage
 Enrich
 Enroll
-Enslave
 Ensnare
 Ensure
 Entail
@@ -2307,8 +2286,6 @@ Epidemic
 Epidermal
 Epidermis
 Epidural
-Epilepsy
-Epileptic
 Epilogue
 Epiphany
 Episode
@@ -2337,7 +2314,6 @@ Escapable
 Escapade
 Escapist
 Escargot
-Eskimo
 Esophagus
 Espionage
 Espresso
@@ -2505,7 +2481,6 @@ Fanning
 Fantasize
 Fantastic
 Fantasy
-Fascism
 Fastball
 Faster
 Fasting
@@ -2661,7 +2636,6 @@ Folic
 Folk
 Follicle
 Follow
-Fondling
 Fondly
 Fondness
 Fondue
@@ -2684,7 +2658,6 @@ Footpad
 Footpath
 Footprint
 Footrest
-Footsie
 Footsore
 Footwear
 Footwork
@@ -2712,7 +2685,6 @@ Fraying
 Frays
 Freckled
 Freckles
-Freebase
 Freebee
 Freebie
 Freedom
@@ -2783,7 +2755,6 @@ Galleria
 Gallery
 Galley
 Gallon
-Gallows
 Gallstone
 Galore
 Galvanize
@@ -2862,7 +2833,6 @@ Gigantic
 Giggle
 Giggling
 Giggly
-Gigolo
 Gilled
 Gills
 Gimmick
@@ -2928,7 +2898,6 @@ Goldmine
 Goldsmith
 Golf
 Goliath
-Gonad
 Gondola
 Gone
 Gong
@@ -2940,10 +2909,8 @@ Goofy
 Google
 Goon
 Gopher
-Gore
 Gorged
 Gorgeous
-Gory
 Gosling
 Gossip
 Gothic
@@ -3023,12 +2990,10 @@ Gristle
 Grit
 Groggily
 Groggy
-Groin
 Groom
 Groove
 Grooving
 Groovy
-Grope
 Ground
 Grouped
 Grout
@@ -3148,7 +3113,6 @@ Happiness
 Happy
 Harbor
 Hardcopy
-Hardcore
 Hardcover
 Harddisk
 Hardened
@@ -3283,7 +3247,6 @@ Humorous
 Humpback
 Humped
 Humvee
-Hunchback
 Hundredth
 Hunger
 Hungrily
@@ -3354,7 +3317,6 @@ Image
 Imaginary
 Imagines
 Imaging
-Imbecile
 Imitate
 Imitation
 Immature
@@ -3370,7 +3332,6 @@ Immovably
 Immunity
 Immunize
 Impaired
-Impale
 Impart
 Impatient
 Impeach
@@ -3392,9 +3353,6 @@ Important
 Importer
 Impose
 Imposing
-Impotence
-Impotency
-Impotent
 Impound
 Imprecise
 Imprint
@@ -3424,8 +3382,6 @@ Irritable
 Irritably
 Irritant
 Irritate
-Islamic
-Islamist
 Isolated
 Isolating
 Isolation
@@ -3523,7 +3479,6 @@ Juncture
 June
 Junior
 Juniper
-Junkie
 Junkman
 Junkyard
 Jurist
@@ -3772,11 +3727,7 @@ Lurk
 Lushly
 Lushness
 Luster
-Lustfully
-Lustily
-Lustiness
 Lustrous
-Lusty
 Luxurious
 Luxury
 Lying
@@ -3805,7 +3756,6 @@ Magnify
 Magnitude
 Magnolia
 Mahogany
-Maimed
 Majestic
 Majesty
 Majorette
@@ -3818,7 +3768,6 @@ Malformed
 Malt
 Mama
 Mammal
-Mammary
 Mammogram
 Manager
 Managing
@@ -3897,7 +3846,6 @@ Material
 Maternal
 Maternity
 Math
-Mating
 Matriarch
 Matrimony
 Matrix
@@ -3914,8 +3862,6 @@ Maximum
 Maybe
 Mayday
 Mayflower
-Moaner
-Moaning
 Mobile
 Mobility
 Mobilize
@@ -3947,7 +3893,6 @@ Moneybags
 Moneyless
 Moneywise
 Mongoose
-Mongrel
 Monitor
 Monkhood
 Monogamy
@@ -3983,7 +3928,6 @@ Morality
 Morally
 Morbidity
 Morbidly
-Morphine
 Morphing
 Morse
 Mortality
@@ -4068,8 +4012,6 @@ Mutable
 Mutate
 Mutation
 Mute
-Mutilated
-Mutilator
 Mutiny
 Mutt
 Mutual
@@ -4099,7 +4041,6 @@ Native
 Nativity
 Natural
 Nature
-Naturist
 Nautical
 Navigate
 Navigator
@@ -4117,7 +4058,6 @@ Negate
 Negation
 Negative
 Neglector
-Negligee
 Negligent
 Negotiate
 Nemeses
@@ -4167,7 +4107,6 @@ Nuptials
 Nursery
 Nursing
 Nurture
-Nutcase
 Nutlike
 Nutmeg
 Nutrient
@@ -4259,7 +4198,6 @@ Operating
 Operation
 Operative
 Operator
-Opium
 Opossum
 Opponent
 Oppose
@@ -4822,7 +4760,6 @@ Presoak
 Press
 Presume
 Presuming
-Preteen
 Pretended
 Pretender
 Pretense
@@ -4866,8 +4803,6 @@ Problem
 Procedure
 Process
 Proclaim
-Procreate
-Procurer
 Prodigal
 Prodigy
 Produce
@@ -4931,7 +4866,6 @@ Prowler
 Prowling
 Proximity
 Proxy
-Prozac
 Prude
 Prudishly
 Prune
@@ -4963,7 +4897,6 @@ Pupil
 Puppet
 Puppy
 Purchase
-Pureblood
 Purebred
 Purely
 Pureness
@@ -5040,7 +4973,6 @@ Quote
 Rabid
 Race
 Racing
-Racism
 Rack
 Racoon
 Radar
@@ -5155,7 +5087,6 @@ Recount
 Recoup
 Recovery
 Recreate
-Rectal
 Rectangle
 Rectified
 Rectify
@@ -5474,7 +5405,6 @@ Rise
 Rising
 Risk
 Risotto
-Ritalin
 Ritzy
 Rival
 Riverbank
@@ -5743,8 +5673,6 @@ Sedate
 Sedation
 Sedative
 Sediment
-Seduce
-Seducing
 Segment
 Seismic
 Seizing
@@ -5770,8 +5698,6 @@ Senorita
 Sensation
 Sensitive
 Sensitize
-Sensually
-Sensuous
 Sepia
 September
 Septic
@@ -5991,7 +5917,6 @@ Skimmer
 Skimming
 Skimpily
 Skincare
-Skinhead
 Skinless
 Skinning
 Skinny
@@ -6013,7 +5938,6 @@ Slacker
 Slacking
 Slackness
 Slacks
-Slain
 Slam
 Slander
 Slang
@@ -6408,7 +6332,6 @@ Strainer
 Straining
 Strangely
 Stranger
-Strangle
 Strategic
 Strategy
 Stratus
@@ -6526,7 +6449,6 @@ Sufferer
 Suffering
 Suffice
 Suffix
-Suffocate
 Suffrage
 Sugar
 Suggest
@@ -6557,7 +6479,6 @@ Supper
 Supplier
 Supply
 Support
-Supremacy
 Supreme
 Surcharge
 Surely
@@ -6610,7 +6531,6 @@ Swimmer
 Swimming
 Swimsuit
 Swimwear
-Swinger
 Swinging
 Swipe
 Swirl
@@ -6736,7 +6656,6 @@ Thirsting
 Thirsty
 Thirteen
 Thirty
-Thong
 Thorn
 Those
 Thousand
@@ -6749,7 +6668,6 @@ Thrill
 Thrive
 Thriving
 Throat
-Throbbing
 Throng
 Throttle
 Throwaway
@@ -7043,7 +6961,6 @@ Undaunted
 Undead
 Undecided
 Undefined
-Underage
 Underarm
 Undercoat
 Undercook
@@ -7447,7 +7364,6 @@ Vaguely
 Vagueness
 Valiant
 Valid
-Valium
 Valley
 Valuables
 Value
